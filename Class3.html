@@ -1,0 +1,138 @@
+<!--
+  Secret Tips: Control + Space is used for VS Code to suggest for you
+Discussing CSS
+
+CSS makes things more beautiful and attractive in a webpage.
+As a developer, make good use of your CSS to always attract people even with your arrangement and colour comb.
+CSS and HTML works together
+
+In CSS, few things to take note of
+- Inline CSS
+- Internal CSS
+- External CSS
+
+Inline and Internal, you can have one html file with HTML, CSS and JAVA, that will be very long and it works just fine, but your code will be long, cumnersome, difficult to read.
+Note that - debugging will always happen, so having a long lines of code might be difficult to unders
+
+
+
+-->
+
+<!--This is an Inline CSS below:
+CHAR: Only apply to one div at a time-->
+
+<DOCTYPE HTML>
+    <HTML>
+        <head>
+            <TITLE>Class 3 - CSS with HTML</TITLE>
+        </head>
+        <BODY>
+
+<form method="post" action="submit-form.php">
+    <!-- Text Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" maxlength="10" placeholder="Enter your name"><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input style="border: 100xp solid" type="password" id="password" name="password" placeholder="Enter your password"><br>
+
+    <!-- Date Input -->
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br>
+    
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="adeniyiharyomidei09@gmail.com" placeholder="Enter your email"><br>
+
+    <!-- Number Input -->
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" placeholder="Enter a number"><br>
+
+    <!-- Textarea Input -->
+    <label for="textarea">Textarea:</label>
+    <textarea id="textarea" name="textarea" placeholder="Your comment here"></textarea><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+  </form>
+</BODY>
+</HTML>
+
+
+
+
+<!--Inside the head(not inside the body) is where an Internal CSS do stay
+CHAR: Can apply to all document selected as much as possible without copy and paste Inline CSS.
+E.G-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Form</title>
+    <style>
+        form {
+            background-color: blueviolet;
+        }
+
+        .body {padding: 20px;
+        }
+
+
+
+    </style>
+  </head>
+  <body>
+    <form method="post" action="submit-form.php">
+      <!-- Text Input -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" maxlength="10" placeholder="Enter your name"><br>
+
+      <!-- Password Input -->
+      <label for="password">Password:</label>
+      <input style="border: 100xp solid" type="password" id="password" name="password" placeholder="Enter your password"><br>
+
+      <!-- Date Input -->
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date"><br>
+
+      <!-- Email Input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" value="adeniyiharyomidei09@gmail.com" placeholder="Enter your email"><br>
+
+      <!-- Number Input -->
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" placeholder="Enter a number"><br>
+
+      <!-- Textarea Input -->
+      <label for="textarea">Textarea:</label>
+      <textarea id="textarea" name="textarea" placeholder="Your comment here"></textarea><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+<!--External CSS is used for easy readablilty and debug
+
+To apply external CSS, you like them together, e.g
+
+<link rel="stylesheet" href="style.css" />
+-->
+
+<!--
+    Classwork:
+    Create an Internal and External Style Sheet
+-->
+
+<!--
+  Box model is a concept that ensure every HTML element is wrapped in a box
+  Space btw element is margin
+  Spece inside element is padding
+
+  ASS
+  Find more about the Box Model2+`
+-->
